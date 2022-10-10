@@ -7,6 +7,7 @@ const new_comment_footer = document.createElement('div');
 const new_comment_currentUser = document.createElement('img');
 const new_comment_sendButton = document.createElement('button');
 const wholePage = document.querySelector('.page');
+let nothing;
 
 
 new_comment_sendButton.addEventListener('click', function(){
